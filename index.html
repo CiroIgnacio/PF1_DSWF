@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio - Ciro Villasanti</title>
+    <!-- Enlace a CSS externo -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- Font Awesome para iconos de social -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Ciro Villasanti</h1>
+    </header>
+
+    <div class="content-wrapper">
+      <main>
+        <article id="sobre-mi">
+          <h2>Sobre Mi</h2>
+          <p>
+            Trabajo en el rubro IT desde el año 2019 habiendome formado en el
+            área de forma autodidacta. Actualmente, me desempeño como
+            Desarrollador y Analista SQL en GDS NET SA y continúo ampliando mis
+            conocimientos de manera formal cursando una Tecnicatura en
+            Desarrollo de Software. Mi principal objetivo es continuar creciendo
+            en el área de manera sinergizada con la empresa en la que me
+            desempeñe.
+          </p>
+        </article>
+
+        <section id="habilidades">
+          <h2>Mis Habilidades</h2>
+          <table>
+            <tr>
+              <th>Tecnologías que conozco</th>
+              <th>Tecnologías que quiero aprender</th>
+              <th>Mis hobbies</th>
+            </tr>
+            <tr>
+              <td>T-SQL, Python, C#, Git, Github</td>
+              <td>React, AWS, Typescript, Docker</td>
+              <td>
+                Mirar series y peliculas, pasear por la naturaleza, leer, jugar
+                al lol
+              </td>
+            </tr>
+          </table>
+        </section>
+        <!-- Proyectos. Sección comentada por ahora hasta tener proyectos publicados
+            <section id="proyectos">
+                <h2>Proyectos</h2>
+                <ul>
+                    <li>
+                        <h3>Proyecto 1</h3>
+                        <p>Descripción del proyecto 1.</p>
+                    </li>
+                    <li>
+                        <h3>Proyecto 2</h3>
+                        <p>Descripción del proyecto 2.</p>
+                    </li>
+                </ul>
+            </section> -->
+        <section id="contacto">
+          <h2>Contacto</h2>
+          <!-- Formulario sencillo HTML sin funcionalidad -->
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="apellido">Apellido:</label>
+              <input type="text" id="apellido" name="apellido" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono:</label>
+              <input type="tel" id="telefono" name="telefono" />
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje:</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+      </main>
+      <div class="aside-container">
+        <aside id="imagen">
+          <img src="img/selfie.jpg" alt="Ciro Villasanti" />
+        </aside>
+        <aside id="social">
+          <h2>Social</h2>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ciro-ignacio-villasanti-238082197/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/ciroignacio" target="_blank">
+                <i class="fab fa-github"></i>
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Ciro Villasanti</p>
+    </footer>
+  </body>
+</html>
