@@ -1,4 +1,4 @@
-# DSFW - Práctica formativa 1 y 2 - Ciro Villasanti
+# DSWF - Práctica formativa 1 y 2 - Ciro Villasanti
 
 ## Descripción
 Portfolio con HTML, CSS y algo de JS, incluyendo características modernas como modo oscuro, diseño responsivo y animaciones.
