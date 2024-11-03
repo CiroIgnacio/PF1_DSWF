@@ -1,7 +1,20 @@
-## Descripción
-Practica formativa 1 / Página de presentacion HTML y CSS
+# DSFW - Práctica formativa 1 y 2 - Ciro Villasanti
 
-## Mejoras a implementar
-- Agregar animaciones
-- Implementar responsive
-- Completar la sección de proyectos
+## Descripción
+Portfolio con HTML, CSS y algo de JS, incluyendo características modernas como modo oscuro, diseño responsivo y animaciones.
+
+## Características
+- Diseño responsivo para todos los dispositivos
+- Modo oscuro/claro
+- Animaciones suaves
+- Navegación fluida
+- Optimizado para SEO
+
+## Tecnologías utilizadas
+- HTML5
+- CSS3
+- JavaScript
+
+## Enlaces
+- 🌐 Deploy: https://ciroignacio.github.io/PF1_DSWF/
+- 💻 Repo: https://github.com/ciroignacio/PF1_DSWF

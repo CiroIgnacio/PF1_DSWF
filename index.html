@@ -4,19 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Portafolio - Ciro Villasanti</title>
-    <!-- Enlace a CSS externo -->
+    <!-- Enlaces a CSS externo -->
     <link rel="stylesheet" href="styles/styles.css" />
-    <!-- Font Awesome para iconos de social -->
+    <link rel="stylesheet" href="styles/dark-mode.css" />
+    <!-- Font Awesome para iconos -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <script src="scripts/main.js" defer></script>
   </head>
   <body>
     <header>
       <h1>Ciro Villasanti</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#que-hago">Qué Hago</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
-
+    <!-- Sobre mi -->
     <div class="content-wrapper">
       <main>
         <article id="sobre-mi">
@@ -31,39 +42,71 @@
             desempeñe.
           </p>
         </article>
-
+        <!-- Sección Habilidades -->
         <section id="habilidades">
           <h2>Mis Habilidades</h2>
           <table>
             <tr>
-              <th>Tecnologías que conozco</th>
-              <th>Tecnologías que quiero aprender</th>
+              <th>Tecnologías que domino</th>
+              <th>Tecnologías en aprendizaje</th>
+              <th>Tecnologías futuras</th>
               <th>Mis hobbies</th>
             </tr>
             <tr>
-              <td>T-SQL, Python, C#, Git, Github</td>
-              <td>React, AWS, Typescript, Docker</td>
               <td>
-                Mirar series y peliculas, pasear por la naturaleza, leer, jugar
-                al lol
+                <ul>
+                  <li><i class="fas fa-database"></i> T-SQL</li>
+                  <li><i class="fab fa-python"></i> Python</li>
+                  <li><i class="fas fa-code"></i> C#</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li><i class="fab fa-react"></i> React</li>
+                  <li><i class="fab fa-aws"></i> AWS</li>
+                  <li><i class="fab fa-docker"></i> Docker</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li><i class="fab fa-angular"></i> Angular</li>
+                  <li><i class="fab fa-vuejs"></i> Vue.js</li>
+                  <li><i class="fas fa-code"></i> Kubernetes</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li><i class="fas fa-film"></i> Series y películas</li>
+                  <li><i class="fas fa-hiking"></i> Pasear por la naturaleza</li>
+                  <li><i class="fas fa-book"></i> Lectura</li>
+                  <li><i class="fas fa-gamepad"></i> Gaming</li>
+                </ul>
               </td>
             </tr>
           </table>
         </section>
-        <!-- Proyectos. Sección comentada por ahora hasta tener proyectos publicados
-            <section id="proyectos">
-                <h2>Proyectos</h2>
-                <ul>
-                    <li>
-                        <h3>Proyecto 1</h3>
-                        <p>Descripción del proyecto 1.</p>
-                    </li>
-                    <li>
-                        <h3>Proyecto 2</h3>
-                        <p>Descripción del proyecto 2.</p>
-                    </li>
-                </ul>
-            </section> -->
+        <!-- Sección Qué Hago -->
+        <section id="que-hago">
+          <h2>Qué Hago</h2>
+          <div class="servicios-grid">
+            <div class="servicio">
+              <i class="fas fa-database"></i>
+              <h3>Desarrollo SQL</h3>
+              <p>Diseño y optimización de bases de datos, desarrollo de objetos y consultas complejas.</p>
+            </div>
+            <div class="servicio">
+              <i class="fas fa-code"></i>
+              <h3>Desarrollo Backend</h3>
+              <p>Implementación de soluciones robustas utilizando C#, Python y NodeJS, siguiendo las mejores prácticas de desarrollo.</p>
+            </div>
+            <div class="servicio">
+              <i class="fas fa-chart-line"></i>
+              <h3>Análisis de Datos</h3>
+              <p>Análisis y visualización de datos para la toma de decisiones empresariales.</p>
+            </div>
+          </div>
+        </section>
+        <!-- Sección Contacto -->
         <section id="contacto">
           <h2>Contacto</h2>
           <!-- Formulario sencillo HTML sin funcionalidad -->
@@ -99,7 +142,7 @@
       </main>
       <div class="aside-container">
         <aside id="imagen">
-          <img src="img/selfie-min.jpg" alt="Ciro Villasanti" />
+          <img src="assets/img/selfie-min.jpg" alt="Ciro Villasanti" />
         </aside>
         <aside id="social">
           <h2>Social</h2>
@@ -126,5 +169,11 @@
     <footer>
       <p>&copy; 2024 Ciro Villasanti</p>
     </footer>
+    <button id="darkModeToggle" class="theme-toggle">
+      <i class="fas fa-moon"></i>
+  </button>
+  <button id="scrollTop" class="scroll-top">
+      <i class="fas fa-arrow-up"></i>
+  </button>
   </body>
 </html>

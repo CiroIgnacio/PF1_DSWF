@@ -1,0 +1,57 @@
+[data-theme="dark"] {
+  --primary-color: #34d399;
+  --secondary-color: #1f2937;
+  --text-color: #e5e7eb;
+  --background-color: #111827;
+  --surface-color: #1f2937;
+  --hover-color: #047857;
+}
+
+[data-theme="dark"] body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3 {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .servicio,
+[data-theme="dark"] form {
+  background-color: var(--surface-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] table tr:nth-child(odd) {
+  background-color: var(--surface-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] table tr:nth-child(even) {
+  background-color: #374151;
+  color: var(--text-color);
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] textarea {
+  background-color: #374151;
+  border-color: #4b5563;
+  color: var(--text-color);
+}
+
+[data-theme="dark"] button:hover {
+  background-color: var(--hover-color);
+}
+
+[data-theme="dark"] .theme-toggle,
+[data-theme="dark"] .scroll-top {
+  background-color: var(--surface-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .theme-toggle:hover,
+[data-theme="dark"] .scroll-top:hover {
+  background-color: var(--hover-color);
+} 
